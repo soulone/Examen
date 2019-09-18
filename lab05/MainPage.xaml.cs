@@ -72,17 +72,17 @@ namespace lab05
             };
             Item12.Clicked += async (sender, e) =>
             {
-                             await Navigation.PushAsync(new ListViewDemo());
+                  await Navigation.PushAsync(new ListView());
 
             };
             Item13.Clicked += async (sender, e) =>
             {
-                       await Navigation.PushAsync(new ListViewCode());
+                  //     await Navigation.PushAsync(new ListViewCode());
 
             };
                      Item14.Clicked += async (sender, e) =>
             {
-                         await Navigation.PushAsync(new ListViewSource());
+                    //     await Navigation.PushAsync(new ListViewSource());
 
             };
 
