@@ -32,27 +32,27 @@ namespace lab05
             };
             Item4.Clicked += async (sender, e) =>
             {
-                // await Navigation.PushAsync(new EditorDemo());
+                await Navigation.PushAsync(new EditorDemo());
 
             };
             Item5.Clicked += async (sender, e) =>
             {
-                // await Navigation.PushAsync(new EditorCode());
+                await Navigation.PushAsync(new EditorCode());
 
             };
             Item6.Clicked += async (sender, e) =>
             {
-                // await Navigation.PushAsync(new EntryDemo());
+                await Navigation.PushAsync(new EntryDemo());
 
             };
             Item7.Clicked += async (sender, e) =>
             {
-                //   await Navigation.PushAsync(new EntryCode());
+                 await Navigation.PushAsync(new EntryCode());
 
             };
             Item8.Clicked += async (sender, e) =>
             {
-                // await Navigation.PushAsync(new LabelDemo());
+                 await Navigation.PushAsync(new LabelDemo());
 
             };
             Item9.Clicked += async (sender, e) =>
@@ -72,17 +72,17 @@ namespace lab05
             };
             Item12.Clicked += async (sender, e) =>
             {
-                //                await Navigation.PushAsync(new ListViewDemo());
+                             await Navigation.PushAsync(new ListViewDemo());
 
             };
             Item13.Clicked += async (sender, e) =>
             {
-                //              await Navigation.PushAsync(new ListViewCode());
+                       await Navigation.PushAsync(new ListViewCode());
 
             };
-            //        Item14.Clicked += async (sender, e) =>
+                     Item14.Clicked += async (sender, e) =>
             {
-                //          await Navigation.PushAsync(new ListViewSource());
+                         await Navigation.PushAsync(new ListViewSource());
 
             };
 

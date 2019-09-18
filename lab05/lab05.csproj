@@ -13,4 +13,33 @@
     <PackageReference Include="Xamarin.Forms" Version="4.1.0.555618" />
     <PackageReference Include="Xamarin.Essentials" Version="1.1.0" />
   </ItemGroup>
+  <ItemGroup>
+    <Compile Update="DatePicker.xaml.cs">
+      <DependentUpon>DatePicker.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="ButtonCode.xaml.cs">
+      <DependentUpon>ButtonCode.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="LabelDemo.xaml.cs">
+      <DependentUpon>LabelDemo.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="LabelCode.xaml.cs">
+      <DependentUpon>LabelCode.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="EntryCode.xaml.cs">
+      <DependentUpon>EntryCode.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="EntryDemo.xaml.cs">
+      <DependentUpon>EntryDemo.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="EditorCode.xaml.cs">
+      <DependentUpon>EditorCode.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="EditorDemo.xaml.cs">
+      <DependentUpon>EditorDemo.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="ListView.xaml.cs">
+      <DependentUpon>ListView.xaml</DependentUpon>
+    </Compile>
+  </ItemGroup>
 </Project>
